@@ -2,7 +2,7 @@ import React, { FC, useCallback } from "react";
 import { createValueChangeHandler } from "../helpers/gridColumnFilterInputHelper";
 import { FilterIndex, ValueKey } from "../filterEnums";
 import { DoubleInputProps } from "../filterInterfaces";
-import { SingleInputField } from "./SingleInputField";
+import { SingleInputField } from "./singleInputField";
 
 export const DoubleInputField: FC<DoubleInputProps> = ({
     values,
