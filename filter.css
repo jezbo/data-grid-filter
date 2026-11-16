@@ -1,0 +1,50 @@
+.ag-filter {
+    padding: 18px 18px 18px 10px
+}
+
+.grid-filter-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-filter-options {
+    margin-bottom: 10px
+}
+
+.grid-filter-input {
+    margin-bottom: 10px;
+}
+
+.grid-filter-operator {
+    margin-right: 6px;
+}
+
+.grid-operator-label {
+    margin-right: 10px;
+    margin-left:10px;
+}
+
+.grid-filter {
+    display: flex;
+    flex-direction: column;
+}
+
+    .grid-filter .Checkbox-input {
+        height: 20px;
+        width: 20px;
+    }
+
+.grid-clear-thisfilter-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.grid-clear-thisfilter {
+    height: 23px;
+    width: 53px;
+}
+
+.single-input {
+    margin-bottom: 10px;
+}
