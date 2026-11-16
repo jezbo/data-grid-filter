@@ -1,0 +1,195 @@
+.ag-filter {
+    padding: 23px 20px 23px 20px;
+}
+
+.grid-filter-container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.ag-menu:has(.grid-filter-boolean),
+.ag-filter:has(.grid-filter-boolean) {
+    min-width: 0;
+    width: fit-content;
+}
+
+.grid-filter-boolean {
+    width: 60px;
+}
+
+.grid-filter-operator-option input[type="radio"] {
+    margin: 0 8px 0 0;
+    width: 18px;
+    height: 18px;
+}
+
+.grid-operator-label {
+    margin: 0 14px 0 0;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: normal;
+    border: 0;
+}
+
+.grid-filter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.grid-filter-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.grid-filter-row-fields {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    min-width: 0;
+}
+
+.grid-filter-options,
+.grid-filter-input,
+.single-input,
+.grid-filter-input-coordinator {
+    margin-bottom: 0;
+}
+
+.grid-filter-options,
+.grid-filter-input-coordinator {
+    display: flex;
+    align-items: center;
+}
+
+.grid-double-input {
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.grid-double-input .single-input {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.grid-double-input .input-label {
+    position: absolute;
+    bottom: calc(100% + 2px);
+    left: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.ag-filter .grid-filter-row select,
+.ag-filter .grid-filter-row input,
+.ag-filter .grid-clear-thisfilter {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 18px;
+    padding: 10px 10px;
+    border-radius: 8%;
+    border: 1px #dbdbdb solid;
+}
+
+.ag-filter .grid-filter-row select,
+.ag-filter .grid-filter-row input:not([type="checkbox"]) {
+    border-radius: 4%;
+}
+
+.grid-filter-row-clear {
+    border: 0;
+    background: transparent;
+    color: #C8786B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0 2px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.grid-filter-row-clear::before {
+    content: "";
+    position: absolute;
+    inset: -7px;
+}
+
+.grid-filter-row-clear:focus-visible {
+    outline: 2px solid #1a1a1a;
+    outline-offset: 3px;
+}
+
+.grid-filter-row-clear:hover {
+    color: #B76559;
+}
+
+.grid-filter-row-clear:active {
+    color: #A65349;
+}
+
+.grid-filter-row-clear .fa-times {
+    font-size: 26px;
+}
+
+.grid-filter-operator-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.grid-filter-operator-option {
+    display: flex;
+    align-items: center;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+}
+
+.grid-filter-sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.grid-filter .Checkbox-input {
+    height: 20px;
+    width: 20px;
+}
+
+.grid-clear-thisfilter-container{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 4px;
+}
+
+.grid-clear-thisfilter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0F0F0;
+    color: black;
+    min-height: 34px;
+    cursor: pointer;
+}
+
+.grid-clear-thisfilter:hover {
+    background-color: #dcdcdc;
+}
+
+.grid-clear-thisfilter:active {
+    background-color: #c8c8c8;
+}
